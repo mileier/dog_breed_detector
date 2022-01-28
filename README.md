@@ -23,23 +23,21 @@ The resulting model and combining algorithm could be used as a basis for e.g. de
     
 	- pixabay-pics:
 		- contains some images of cats, dogs, and humans to test the resulting algorithm
-    
-  - requirements:
-    - folder provided by Udacity, containing details of the used Python, Keras etc. versions.
+	- requirements:
+		- folder provided by Udacity, containing details of the used Python, Keras etc. versions.
+	- saved_models:
+		- weights.best.from_scratch.hdf5 - best model of a CNN from scratch
+		- weights.best.VGG16.hdf5        - best model based on the pre-trained CNN: VGG16 using and extending on pre-calculated bottleneck-features 
+		- weights.best.resnet50.hdf5     - best model based on the pre-trained CNN: ResNet50 using and extending on pre-calculated bottleneck-features
 
-  - saved_models:
-    - weights.best.from_scratch.hdf5 - best model of a CNN from scratch
-    - weights.best.VGG16.hdf5        - best model based on the pre-trained CNN: VGG16 using and extending on pre-calculated bottleneck-features 
-    - weights.best.resnet50.hdf5     - best model based on the pre-trained CNN: ResNet50 using and extending on pre-calculated bottleneck-features
- 
-  - CODEOWNERS:  File provided by Udacity, stating the Code-Ownership of their Authors
-
-  - LICENSE.txt: File provided by Udacity, stating the License
-
-  - extract_bottleneck_features.py: Python module, provided by Udacity containing some helper functions to deal with the bottleneck feature extraction
-  
-  - dog_app.ipynb: Jupyter Notebook to find an algorithm to determine dog breeds for dog images and resembling dog breeds for pictures of human faces.
-  - report.html:   HTML version / download of that Jupyter Notebook including the outputs and answers.
+	- CODEOWNERS:  File provided by Udacity, stating the Code-Ownership of their Authors
+	
+	- LICENSE.txt: File provided by Udacity, stating the License
+	
+	- extract_bottleneck_features.py: Python module, provided by Udacity containing some helper functions to deal with the bottleneck feature extraction
+	
+	- dog_app.ipynb: Jupyter Notebook to find an algorithm to determine dog breeds for dog images and resembling dog breeds for pictures of human faces.
+	- report.html:   HTML version / download of that Jupyter Notebook including the outputs and answers.
 
 ### Acknowledgements
 
