@@ -38,7 +38,7 @@ The resulting model and combining algorithm could be used as a basis for e.g. de
 	- report.html:   HTML version / download of that Jupyter Notebook including the outputs and answers.
 
 ### Acknowledgements
-
+ 
 Thanks to the Udacity team for preparing this interesting project!
 And thanks to all cited sources mentioned in the medium.com report on this (see link at the top of this file).
 
